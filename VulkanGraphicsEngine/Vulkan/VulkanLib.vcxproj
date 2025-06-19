@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0B2E9717-5FD0-3FF3-B715-6ABC6522B5B6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>VulkanLib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VulkanLib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VulkanLibd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VulkanLib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VulkanLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">VulkanLib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">VulkanLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">VulkanLib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">VulkanLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Commands;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glm-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\tinyobjloader-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\contrib;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-build\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\imgui_external-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.3.296.0/Include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Commands;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glm-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\tinyobjloader-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\contrib;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-build\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\imgui_external-src;C:\VulkanSDK\1.3.296.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Commands;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glm-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\tinyobjloader-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\contrib;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-build\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\imgui_external-src;C:\VulkanSDK\1.3.296.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Commands;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glm-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\tinyobjloader-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\contrib;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-build\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\imgui_external-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.3.296.0/Include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Commands;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glm-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\tinyobjloader-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\contrib;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-build\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\imgui_external-src;C:\VulkanSDK\1.3.296.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Commands;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glm-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\tinyobjloader-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\contrib;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-build\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\imgui_external-src;C:\VulkanSDK\1.3.296.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Commands;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glm-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\tinyobjloader-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\contrib;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-build\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\imgui_external-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.3.296.0/Include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Commands;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glm-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\tinyobjloader-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\contrib;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-build\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\imgui_external-src;C:\VulkanSDK\1.3.296.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Commands;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glm-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\tinyobjloader-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\contrib;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-build\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\imgui_external-src;C:\VulkanSDK\1.3.296.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Commands;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glm-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\tinyobjloader-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\contrib;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-build\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\imgui_external-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.3.296.0/Include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Commands;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glm-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\tinyobjloader-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\contrib;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-build\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\imgui_external-src;C:\VulkanSDK\1.3.296.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Commands;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glm-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\tinyobjloader-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\contrib;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-src\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-src\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-build\code\..\include;D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\imgui_external-src;C:\VulkanSDK\1.3.296.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine/Vulkan/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Cmake\bin\cmake.exe "-SD:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine" "-BD:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine" --check-stamp-file "D:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine/Vulkan/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Cmake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;D:\Cmake\share\cmake-3.29\Modules\FetchContent.cmake;D:\Cmake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;D:\Cmake\share\cmake-3.29\Modules\FindGit.cmake;D:\Cmake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.29\Modules\FindVulkan.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine/Vulkan/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Cmake\bin\cmake.exe "-SD:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine" "-BD:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine" --check-stamp-file "D:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine/Vulkan/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Cmake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;D:\Cmake\share\cmake-3.29\Modules\FetchContent.cmake;D:\Cmake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;D:\Cmake\share\cmake-3.29\Modules\FindGit.cmake;D:\Cmake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.29\Modules\FindVulkan.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine/Vulkan/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Cmake\bin\cmake.exe "-SD:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine" "-BD:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine" --check-stamp-file "D:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine/Vulkan/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Cmake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;D:\Cmake\share\cmake-3.29\Modules\FetchContent.cmake;D:\Cmake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;D:\Cmake\share\cmake-3.29\Modules\FindGit.cmake;D:\Cmake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.29\Modules\FindVulkan.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine/Vulkan/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Cmake\bin\cmake.exe "-SD:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine" "-BD:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine" --check-stamp-file "D:/DAE/Graphics prog 2/graphics-programming-2-vulkan-project-LucaDeMeyer/VulkanGraphicsEngine/Vulkan/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Cmake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;D:\Cmake\share\cmake-3.29\Modules\FetchContent.cmake;D:\Cmake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;D:\Cmake\share\cmake-3.29\Modules\FindGit.cmake;D:\Cmake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.29\Modules\FindVulkan.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\VulkanContext.cpp" />
+    <ClCompile Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\VulkanUtils.cpp" />
+    <ClCompile Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\VulkanSwapChain.cpp" />
+    <ClCompile Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\WindowManager.cpp" />
+    <ClCompile Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\VulkanPipeline.cpp" />
+    <ClCompile Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Commands\VulkanCommandBuffer.cpp" />
+    <ClCompile Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\VulkanTexture.cpp" />
+    <ClCompile Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\VulkanSyncObjects.cpp" />
+    <ClCompile Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\VulkanRenderer.cpp" />
+    <ClCompile Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers\VulkanVertexBuffer.cpp" />
+    <ClCompile Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers\VulkanIndexBuffer.cpp" />
+    <ClCompile Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers\VulkanUniformBuffer.cpp" />
+    <ClCompile Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\VulkanDescriptorManager.cpp" />
+    <ClCompile Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers\VulkanDepthBuffer.cpp" />
+    <ClCompile Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\ModelLoader.cpp" />
+    <ClInclude Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\VulkanContext.h" />
+    <ClInclude Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\VulkanUtils.h" />
+    <ClInclude Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\WindowManager.h" />
+    <ClInclude Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\VulkanPipeline.h" />
+    <ClInclude Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Commands\VulkanCommandbuffer.h" />
+    <ClInclude Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\VulkanTexture.h" />
+    <ClInclude Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\VulkanSyncObjects.h" />
+    <ClInclude Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\VulkanRenderer.h" />
+    <ClInclude Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers\VulkanVertexBuffer.h" />
+    <ClInclude Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers\VulkanIndexBuffer.h" />
+    <ClInclude Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers\VulkanUniformBuffer.h" />
+    <ClInclude Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\VulkanDescriptorManager.h" />
+    <ClInclude Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\Buffers\VulkanDepthBuffer.h" />
+    <ClInclude Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\ModelLoader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\ZERO_CHECK.vcxproj">
+      <Project>{2839E5B7-8804-3693-804E-409249806EBA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-build\code\assimp.vcxproj">
+      <Project>{FCA87E07-0FC3-3118-A85B-35812B1CF3D2}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\glfw-build\src\glfw.vcxproj">
+      <Project>{599D48CE-FB7B-356C-852F-15D895BCB53C}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Vulkan\imgui.vcxproj">
+      <Project>{B8CF7FD8-CBE2-382F-8D3C-CDE34BA28973}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\_deps\assimp-build\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{3D71F698-52E4-3994-BB84-67D4DDB70CCC}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\CMakeFiles\98416682da8f15ad14a0a95a24ce7997\shader.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\CMakeFiles\98416682da8f15ad14a0a95a24ce7997\shader.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\CMakeFiles\451bce99df5c61a2f5c0b8f51fe6dc1a\Shaders.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Shaders\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\DAE\Graphics prog 2\graphics-programming-2-vulkan-project-LucaDeMeyer\VulkanGraphicsEngine\Shaders\CMakeFiles\Shaders" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FB16D286-60BC-3D50-9487-076822C52AC7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
